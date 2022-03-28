@@ -1,17 +1,6 @@
-# Relevant Info
-
-Number of approved mimic users
-
-https://physionet.org/console/complete-list-credentialed-people/
-
-
 # Citation Tracker
 
-The goal is to create a reusable tool for tracking use of LCP resources in research papers. e.g. So we can answer the questions, "which research papers were carried out with the use of MIMIC" and "which research papers were carried out with the use of the eICU Collaborative Research Database"?
-
-## Best Search String Found
-
-(mimic-ii OR mimic-iii OR mimicii OR mimiciii OR mimic-2 OR mimic-3 OR mimic2 OR mimic3) AND (physionet OR icu OR “intensive care” OR “critical care”)
+The goal is to create a reusable tool for extracting publications based on queries.
 
 ## Python Requirements
 
@@ -29,7 +18,6 @@ https://scholar.google.com/intl/en/scholar/about.html
 Google Scholar includes journal and conference papers, theses and dissertations, academic books, pre-prints, abstracts, technical reports and other scholarly literature from all broad areas of research. You'll find works from a wide variety of academic publishers, professional societies and university repositories, as well as scholarly articles available anywhere across the web. Google Scholar also includes court opinions and patents.
 
 When we search, we exclude citations and patents.
-
 
 # Medline
 
@@ -70,7 +58,6 @@ Pubmed's contents are a superset of Medline's. PubMed provides millions of refer
 - Currently indexed Pubmed journals: https://www.ncbi.nlm.nih.gov/nlmcatalog/?term=currentlyindexed+OR+journalspmc
 - Pubmed journal list: https://www.nlm.nih.gov/bsd/serfile_addedinfo.html
 
-
 - https://www.nlm.nih.gov/bsd/serfile_addedinfo.html
 List of all: ftp://ftp.ncbi.nih.gov/pubmed/J_Medline.txt
 
@@ -96,8 +83,6 @@ In conclusion, PubMed citations come from:
 
 Both MEDLINE and other PubMed citations may have links to full-text articles or manuscripts in PMC, NCBI Bookshelf, and publishers' Web sites.
 
-
-
 # Web of Science
 
 https://en.wikipedia.org/wiki/Web_of_Science
@@ -106,30 +91,14 @@ Expanding the coverage of Web of Science, in November 2009 Thomson Reuters intro
 
 Furthermore, as of September 3, 2014 the total file count of the Web of Science was 90 million records, which included over a billion cited references. This citation service on average indexes around 65 million items per year, and it is described as the largest accessible citation database.[12]
 
-
-
 # SCOPUS
 
 ## Resources
 
 - Search URL: https://www.scopus.com/search/form.uri?display=basic
--
-
 
 # IEEE
 
 https://www.ieee.org/publications_standards/publications/xplore/index.html
 
 The IEEE Xplore digital library provides access to IEEE journals, transactions, letters, magazines and conference proceedings, IET journals and conference proceedings, IEEE Standards and IEEE educational courses
-
-# Individual Search Result Numbers
-
-Using search query: `(mimic-ii OR mimic-iii OR mimicii OR mimiciii OR mimic-2 OR mimic-3 OR mimic2 OR mimic3) AND (physionet OR icu OR “intensive care” OR “critical care”)`on 2 October 2017:
-- Google Scholar (do not include citations, do not include patents, include all languages): "about 2100"
-- Pubmed: 128
-- Pubmed Central: 230
-- Web of Science: 132
-- SCOPUS: 171
-- IEEE: 283
-
-
