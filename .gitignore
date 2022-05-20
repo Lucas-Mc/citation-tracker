@@ -70,3 +70,6 @@ target/
 
 # data files
 travisdata/
+
+# temp files
+~$*
